@@ -1,0 +1,44 @@
+body {
+  padding: 10px;
+  margin: 10px;
+  background-color: #84a950;
+  text-align: center; }
+
+/* general of the boxes */
+.container {
+  /* individul box styling */
+  /* hover */ }
+  .container .box {
+    display: inline-block;
+    border: 5px solid white;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px; }
+  .container .box1 {
+    background-color: pink;
+    float: right; }
+  .container .box2 {
+    background-color: purple;
+    float: left; }
+  .container .box3 {
+    background-color: darkcyan;
+    float: right; }
+  .container .box4 {
+    background-color: blue;
+    float: left; }
+  .container .box1:hover {
+    background-color: purple; }
+  .container .box2:hover {
+    background-color: yellow; }
+  .container .box3:hover {
+    background-color: red;
+    width: 600px; }
+  .container .box4:hover {
+    background-color: green;
+    width: 50px; }
+  .container .box2:active {
+    background-color: orange;
+    width: 1000px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,66 @@
+body {
+  padding: 10px;
+  margin: 10px;
+  background-color: 	#84a950;
+  text-align: center;
+}
+
+/* general of the boxes */
+.container{
+
+    .box {
+      display: inline-block;
+      border: 5px solid white;
+      height: 200px;
+      width: 200px;
+      margin: 5px;
+      padding: 5px;
+}
+
+  /* individul box styling */
+
+      .box1 {
+        background-color: pink;
+        float: right;
+      }
+
+      .box2 {
+        background-color: purple;
+        float: left;
+      }
+
+      .box3 {
+        background-color: darkcyan;
+        float: right;
+      }
+
+      .box4 {
+        background-color: blue;
+        float: left;
+      }
+
+  /* hover */
+
+      .box1:hover {
+        background-color: purple;
+      }
+
+      .box2:hover {
+        background-color: yellow;
+      }
+
+      .box3:hover {
+        background-color: red;
+        width: 600px;
+      }
+
+      .box4:hover {
+        background-color: green;
+        width: 50px;
+      }
+
+      .box2:active {
+        background-color: orange;
+        width: 1000px;
+      }
+  }

@@ -1,0 +1,46 @@
+$primarycolor:	#ff8b6e;
+$pad:20px;
+$mar:10px;
+*{
+  box-sizing: border-box;
+}
+/* body*/
+body{
+  margin:0 auto;
+  padding: 10px;
+  background-color:#ffa525;
+  width: 100%
+
+}
+.container{
+  h1,h2,h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;;
+    font-family: cursive;
+}
+    img{
+      height: 300px;
+      width: 300px;
+  }
+    img:hover{
+      width: 1000px;
+      height: 500px;
+  }
+      p{
+        text-align: center;
+  }
+      .learnt{
+        background-color:$primarycolor;
+        padding: $pad;
+        margin: $mar;
+    }
+      .equipment{
+        background-color: $primarycolor;
+    }
+        .ingredients{
+          background-color: $primarycolor;
+      }
+        .instructions{
+          background-color: $primarycolor;}
+}
